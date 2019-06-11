@@ -22,7 +22,7 @@ import random
 from restapi import restfulapi 
 phonenumber = "9830008632000111"
 groupId = random.randint(0, 99999999)
-ws = restfulapi("mehran67","a14267")
+ws = restfulapi("*","*")
 ws.SendMessage(PhoneNumber=phonenumber,Message="سلام به محمد رستمی از پایتون",Mobiles=['989398219817'],UserGroupID=str(groupId),SendDateInTimeStamp=1558298601)
 ```
 ## ارسال پیام دسته ای یا متناظر
