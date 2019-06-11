@@ -39,7 +39,7 @@ import random
 from restapi import restfulapi 
 phonenumber = "9830008632000111"
 groupId = random.randint(0, 99999999)
-ws = restfulapi("mehran67","a14267")
+ws = restfulapi("*","*")
 MessagesList= [{'Id':'10','Message':'سلام به مهران از پایتون','Mobile':'989112170848' },{'Id':'20','Message':'سلام به رستمی از پایتون','Mobile':'989116048697' }]
 ws.SendCorrespondingMessage(PhoneNumber=phonenumber,MessagesToNumbers=MessagesList,UserGroupID=str(groupId))
 ```
